@@ -92,7 +92,7 @@ namespace BackendTarjetaCredito.Controllers
                     return NotFound(new { message = "id No es valido" });
                 }
                 await _tarjetaService.deleteTarjetaById(id);
-                return Ok(new { message = "La Tarjeta fue eliminada con exito" });
+                return Ok(new { message = "the Credit Card was delete  succesfully" });
 
             }
             catch (Exception ex)
